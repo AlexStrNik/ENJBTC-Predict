@@ -1,4 +1,4 @@
-ENJBTC Predict
+ENJBTC price prediction
 ===================
 To run:
 
