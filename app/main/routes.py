@@ -17,6 +17,7 @@ def get_price():
 def post():
     print(request.json)
     join_room(room)
+    pass
     emit('message', {'msg': session.get('name') + ' has entered the room.'}, room=room)
 
 
