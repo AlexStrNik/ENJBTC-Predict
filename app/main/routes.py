@@ -13,7 +13,7 @@ def get_price():
     return json.dumps(prices)
 
 
-@main.route('/', methods=['POST'])
+@main.route('/data', methods=['POST'])
 def post():
     print(request.json)
     join_room(room)
